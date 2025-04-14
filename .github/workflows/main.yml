@@ -25,4 +25,5 @@ jobs:
           
       
       - name: Run main.py
-        run: python main.py -u 15965397555 -p QLBX0227 -1 251914501,251841659 #课程id，默认为心理课的
+        run: python main.py -u 15965397555 -p QLBX0227 -l 251914501,251841659 #课程id，默认为心理课的
+         #run: python main.py -u 学习通账号 -p 学习通密码 -l 课程id 
